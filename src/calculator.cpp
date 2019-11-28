@@ -14,6 +14,10 @@ float calculate(const std::string& lhs,
         return flhs + frhs;
     else if (operand_string == "-")
         return flhs - frhs;
+    else if (operand_string == "*")
+        return flhs * frhs;
+    else if (operand_string == "/")
+        return flhs / frhs;
     else
         return 0;
 }
