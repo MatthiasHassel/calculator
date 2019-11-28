@@ -24,5 +24,5 @@ int main(int argc, const char** argv)
 
     float output = calculate(argv[0], argv[2], argv[1]);
 
-    std::cout << "Ergebnis: " << output << "\n";
+    std::cout << output << "\n";
 }
